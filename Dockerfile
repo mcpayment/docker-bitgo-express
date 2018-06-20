@@ -8,7 +8,7 @@ RUN apk update && apk upgrade && \
     cd bitgo-express && \
     npm install "bitgo"
 
-ENV PATH="/bitgo-express/node_modules/bitgo/bin:$PATH" \
+ENV PATH="/bitgo-express/node_modules/bitgo/bin:$PATH"
 
 EXPOSE 3080
 
